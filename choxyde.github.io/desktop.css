@@ -1,0 +1,84 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #F4F6F6  !important;
+	height: 100% !important;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+}
+#container{
+	background-image: url("images/treesfog.jpg");
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	width: inherit;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#outerwrapper{
+	margin: 5% 20%;
+}
+img.icenter{
+	width: 22%;
+	height: 15%;
+}
+img.ibottom{
+	width: 4%;
+	height: 4%;
+}
+a.aimg{
+	opacity: 0.8;
+}
+a.aimg:hover{
+	opacity: 1;
+}
+div.abottomdiv{
+	margin-top: 25%;
+}
+input{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+}
+form.searchbar button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #999;
+	color: white;
+	font-size: 19px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+}
+
+form.searchbar button:hover {
+ 	background: #555;
+}
+
+/* Clear floats */
+form.searchbar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/* Style the search field */
+form.searchbar input[type=text] {
+  	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
