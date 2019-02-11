@@ -34,12 +34,30 @@ body{
 img.icenter{
 	width: 22%;
 	height: 15%;
+	-webkit-transition: width 0.2s;
 }
-a.acenter{
+img.icenter:hover{
+	width: 24%;
+	height: 16%;
+}
+img.ibottom{
+	width: 4%;
+	height: 4%;
+	margin-right: 2px;
+	-webkit-transition: width 0.2s;
+}
+img.ibottom:hover{
+	width: 6%;
+	height: 6%;
+}
+a.aimg{
 	opacity: 0.8;
 }
-a.acenter:hover{
+a.aimg:hover{
 	opacity: 1;
+}
+div.abottomdiv{
+	margin-top: 25%;
 }
 input{
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
